@@ -5,7 +5,7 @@ import Peer from 'simple-peer';
 const SocketContext = createContext();
 
 // const socket = io('http://localhost:9000');
-const socket = io('https://video-app-ibnbayo.herokuapp.com/');
+const socket = io('https://video-app-ibnbayo.up.railway.app/');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
